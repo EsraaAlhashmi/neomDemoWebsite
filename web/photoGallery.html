@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHOTO GALLERY</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600'>
+    <script type="text/javascript" src="script.js"></script>
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="https://egwineco.com/wp-content/themes/egwineco/assets/images/global/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="https://egwineco.com/wp-content/themes/egwineco/assets/images/global/favicon.ico" type="image/x-icon">
+
+        <link href="css1/blog-post.css" rel="stylesheet">
+
+        <style>
+
+
+            .navbar{
+                margin-bottom:0;
+                border-radius: 0;
+                background-color: inherit;
+                color: white;
+                padding: 1% 0;
+                font-size: 13px;
+                border: 0;
+            }
+            .navbar-brand{
+                float: left;
+                min-height: 165px;
+                padding: 0 15px 5px;
+            }
+
+            .navbar-inverse .nabvar-nav .active a, .navbar-inverse .nabvar-nav .active a:focus, .navbar-inverse .nabvar-nav .active a:hover {
+                color: #FFF;
+                background-color: rgba(255, 255, 255, 0.6);
+            }
+            .navbar-inverse .navbar-nav li a{
+                color: white;
+            }
+
+        </style>
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="logo.png" alt="neom logo" style="width:100%">
+                    </a>
+                </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                                                        <!-- style="margin-top:140px;margin-right:125px;"  -->
+                        <ul class="nav navbar-nav navbar-right" >
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="Articles.html">LIST OF ARTICLES</a></li>
+                            <li class="active"><a href="photoGallery.html" style="color: #FFF; background-color: rgba(215, 215, 252, 0.6)">PHOTO GALLERY</a></li>
+                            <li><a href="INFORMATION.html">INFORMATION</a></li>
+                            <li><a href="contactUs.html">CONTACT US</a></li>
+                            <li><a href="Site.html">SITEMAP</a></li>
+                            <li><a class=registerlink href="register.html" style="float:right"> REGISTER IN AN EVENT </a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+  <div id="content" style="height:100% ; " align="center">
+
+                <div class="cont_breadcrumbs_2">
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+
+                    <li><a href="photoGallery.html">PHOTO GALLERY</a></li>
+                  </ul>
+
+                  </div>
+
+  <div class="img-comp-container" style="margin-top:15%;margin-left:5%;margin-bottom:10%">
+  <div class="img-comp-img">
+    <img src="01.jpg" width="400" height="300">
+
+  </div>
+  <div class="img-comp-img img-comp-overlay">
+    <img src="02.jpg" width="400" height="300">
+  </div>
+</div>
+
+<div class="img-comp-container" style="margin-left: 51%">
+  <div class="img-comp-img">
+    <img src="03.jpg" width="400" height="300" >
+
+  </div>
+  <div class="img-comp-img img-comp-overlay">
+     <img src="04.jpg" width="400" height="300" >
+  </div>
+</div>
+
+    <div class="photo" style="margin-top: 53%" >
+    	<img id="img5" src="05.jpg" alt="neom" draggable="true" ondragstart="drag(event)" >
+    	<img id="img6" src="06.jpg" alt="neom" draggable="true" ondragstart="drag(event)">
+    	<img id="img7" src="07.jpg" alt="neom " draggable="true" ondragstart="drag(event)">
+    	<img id="img8" src="08.jpg" alt="neom " draggable="true" ondragstart="drag(event)">
+    	<img id="img9" src="09.jpg" alt="neom " draggable="true" ondragstart="drag(event)">
+    	<img id="img10" src="10.jpg" alt="neom " draggable="true" ondragstart="drag(event)">
+    	<img id="img11" src="11.jpg" alt="neom " draggable="true" ondragstart="drag(event)">
+    	<img id="img12" src="12.jpg" alt="neom " draggable="true" ondragstart="drag(event)">
+    	<img id="img13" src="13.jpg" alt="neom " draggable="true" ondragstart="drag(event)" >
+    	<img id="img14"src="14.jpg" alt="neom " draggable="true" ondragstart="drag(event)" >
+
+    <h3 style="margin-top:5% "> My Favorite Images</h3>
+    <div id="block" style="border: 2px solid black;padding:10%;" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+    </div>
+<script>
+initComparisons();
+</script>
+
+
+</div>
+
+<footer >
+    <div class="container2">
+       <div class="foot1" >
+
+         <p style=" color: black; font-size:30px;"></p>
+
+         <p style="margin-left:10%;color: white; font-size:15px;width:50%; display: inline-block;margin-block-end:0;margin-block-start:0;margin-inline-end: 0;margin-inline-start: 0;"><strong style="font-size:16px">ABOUT US :</strong><br> We made this website to Familiarize the world with<br> all the aspects of Neom city
+         and provide informative<br> articles and an interactive community.</p>
+
+        </div>
+
+        <div class="foot2" >
+            <form  action="/action_page.php" method="POST" style="clear: left;margin-left:10%;">
+                <div class="form" >SUBSCRIBE TO OUT MAILING LIST</div>
+                <img class="emailmg" align="center" src="mail.png" float="none" style="width:10%" onclick=al()>
+                <input type="email" name="email" style="width:85%">
+            </form>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+        <div align="center" style=" position: relative;">
+            <img align="center" src="logo-footer.png" float="none">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Articles.html">LIST OF ARTICLES</a></li>
+                <li><a href="photoGallery.html">PHOTO GALLERY</a></li>
+                <li><a href="INFORMATION.html">INFORMATION</a></li>
+                <li><a href="contactUs.html">CONTACT US</a></li>
+                <li><a href="Site.html">SITEMAP</a></li>
+
+            </ul>
+        </nav>
+
+</footer>
+
+</body>
+
+
+<html>
